@@ -1,7 +1,14 @@
 /target
 /.idea
 /.vscode
+pkg
 
+**/*.rs.bk
+
+node_modules/
+test-results/
+end2end/playwright-report/
+playwright/.cache/
 
 .DS_Store
 .direnv
