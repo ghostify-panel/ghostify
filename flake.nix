@@ -36,6 +36,7 @@
         {
           nativeBuildInputs = with pkgs; [
             openssl
+						cargo-leptos
 						toolchain
           ] ++ lib.optionals stdenv.isDarwin [
 						apple-sdk
