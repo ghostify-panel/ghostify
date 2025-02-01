@@ -4,8 +4,6 @@ use leptos::logging::log;
 use leptos::prelude::*;
 use leptos_axum::{generate_route_list, LeptosRoutes};
 
-mod fileserv;
-
 #[tokio::main]
 async fn main() {
     let conf = get_configuration(None).unwrap();
